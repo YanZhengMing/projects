@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker
 
 engine = create_engine(
     # mysql+pymysql://用户:密码@服务器/数据库?参数
-    'mysql+pymysql://root:tedu.cn@127.0.0.1/tedu1903?charset=utf8',
+    'mysql+pymysql://root:123.com@127.0.0.1/Departments?charset=utf8',
     encoding='utf8',
     # echo=True  # 打印日志信息，生产环境下不要启用
 )
